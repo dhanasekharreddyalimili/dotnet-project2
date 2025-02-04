@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mytest2025-config
+  namespace: namespace-workflow-1738686287557
+  labels:
+    app.kubernetes.io/name: mytest2025
+    kubernetes.azure.com/generator: devhub
+data:
